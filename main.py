@@ -24,7 +24,7 @@ def insert_data(url):
         print('Error Occurred while inserting data')
         return None
 
-
+#changes
 
 @app.route('/search', methods=['GET'])
 def art_search():
