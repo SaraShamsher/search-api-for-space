@@ -25,6 +25,7 @@ def insert_data(url):
         return None
 
 #changes
+#qwwert
 @app.route('/search', methods=['GET'])
 def art_search():
     keyword = request.args.get("keyword")
